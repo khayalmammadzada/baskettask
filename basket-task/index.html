@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/images/">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <div class="text-light me-5">
+                <a class="add-to-cart" href="shoppingcart.html"><i class="text-light fa-solid fa-cart-shopping"></i></a>
+                <span class="count">0</span>
+            </div>
+            <div class="text-light me-5">
+                Total price:
+                <span class="total">0</span>$
+            </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-3 item">
+                <div class="image">
+                    <div class="img-content">
+                        <img src="assets/images/6297D-5.png" alt="">
+                    </div>
+                </div>
+                <div class="info">
+                    <h2 class="name">Samsung S22 Ultra</h2>
+                    <span class="price">2200</span>$
+                    <div class="my-3">
+                        <button data-id="1" class="addCart btn btn-outline-success">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 item">
+                <div class="image">
+                    <div class="img-content">
+                        <img src="assets/images/Samsung-Galaxy-S22-Ultra-Phantom-White_Product-Box-Image_62197-e1644317278143.jpeg">
+                    </div>
+                </div>
+                <div class="info">
+                    <h2 class="name">Samsung S22 +</h2>
+                    <span class="price">1200</span>$
+                    <div class="my-3">
+                        <button data-id="2" class="addCart btn btn-outline-success">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 item">
+                <div class="image">
+                    <div class="img-content">
+                        <img src="assets/images/iphone_13_pro_max_silver_select_f991ccd8fa.png" alt="">
+                    </div>
+                </div>
+                <div class="info">
+                    <h2 class="name">Iphone 13 Pro Max</h2>
+                    <span class="price">2400</span>$
+                    <div class="my-3">
+                        <button data-id="3" class="addCart btn btn-outline-success">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 item">
+                <div class="image">
+                    <div class="img-content">
+                        <img src="assets/images/iphone-13-pink-select-2021.png" alt="">
+                    </div>
+                </div>
+                <div class="info">
+                    <h2 class="name">Iphone 13</h2>
+                    <span class="price">2000</span>$
+                    <div class="my-3">
+                        <button data-id="4" class="addCart btn btn-outline-success">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 item">
+                <div class="image">
+                    <div class="img-content">
+                        <img src="assets/images/siemens-m65_1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="info">
+                    <h2 class="name">Siemens</h2>
+                    <span class="price">20</span>cent
+                    <div class="my-3">
+                        <button data-id="5" class="addCart btn btn-outline-success">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

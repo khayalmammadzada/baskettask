@@ -1,0 +1,20 @@
+.image, .image .img-content, .image .img-content img{
+    height: 250px;
+    width: 100%;
+}
+
+img{
+    object-fit: contain;
+}
+
+.item{
+    border: 2px red ridge;
+}
+
+.empty-cart{
+    position: absolute;
+    top: 38%;
+    left: 38%;
+}
+
+
